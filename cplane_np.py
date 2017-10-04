@@ -11,7 +11,7 @@
 """
 import numpy as np
 import pandas as pd
-from abscplane import AbsComplexPlane as ab
+from abscplane import AbsComplexPlane
 
 
 class ArrayComplexPlane(AbsComplexPlane):
