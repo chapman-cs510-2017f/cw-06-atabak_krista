@@ -2,9 +2,7 @@
 
 **Author(s):** **CHANGEME**
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-06-atabak_krista
-.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-06-atabak_krista
-)
+[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-06-atabak_krista.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-06-atabak_krista)
 
 ## Specification
 
