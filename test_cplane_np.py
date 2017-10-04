@@ -9,7 +9,7 @@
 # Assignment: Classwork 6
 ###
 """
-import cplane
+import cplane_np as cplane
 import pandas as pd
 
 
