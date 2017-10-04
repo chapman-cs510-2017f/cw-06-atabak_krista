@@ -32,8 +32,7 @@ class ArrayComplexPlane(AbsComplexPlane):
         dy = np.linspace(ymin,ymax,ylen)
         x , y = np.meshgrid(dx,dy)
         plane_n = pd.DataFrame(x + y*1j)
-        
-        return plane
+        return plane_n
 
     def __init__(self):
         self.xmin = 0.0
