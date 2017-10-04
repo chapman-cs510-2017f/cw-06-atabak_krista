@@ -2,14 +2,15 @@
 # -*- coding: utf-8 -*-
 """
 ###
-# Name: Kristaaaa, Atabak
+# Name: Krista, Atabak
 # Student ID: KristaIDHere, AtabakIDHere
 # Email:  kristaEmailHere , AtabakEmail
 # Course: CS510 Fall 2017
-# Assignment: Classwork 5
+# Assignment: Classwork 6
 ###
 """
 import cplane
+import pandas as pd
 
 
 def test_plane():
@@ -19,5 +20,5 @@ def test_plane():
     :rtype:
     """
     c_plane = cplane.ListComplexPlane(0, 3, 3, 0, 3, 3)
-    assert c_plane.plane == [[0.0, 0j], [0.0, 1.5j], [0.0, 3j], [1.5, 0j],
-                             [1.5, 1.5j], [1.5, 3j], [3.0, 0j], [3.0, 1.5j], [3.0, 3j]]
+    assert c_plane.plane == pd.DataFrame([[0.0, 0j], [0.0, 1.5j], [0.0, 3j], [1.5, 0j],
+                             [1.5, 1.5j], [1.5, 3j], [3.0, 0j], [3.0, 1.5j], [3.0, 3j]])
