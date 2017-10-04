@@ -19,7 +19,9 @@
 
 ## Assessment
 
-Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
+Numpy is very powerful in terms of being able to apply a function or command to an array. It is also very efficient because it does not implement for loops in the code. Pandas i'm sure are useful in coding, however for this implementation we didn't understand the usefulness for this implementation.
+------------------
+
 
 **CHANGEME**
 
@@ -32,4 +34,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+Atabak & Kristalee
