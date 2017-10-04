@@ -15,9 +15,6 @@ from abscplane import AbsComplexPlane as ab
 
 
 class ArrayComplexPlane(AbsComplexPlane):
-
-
-class ListComplexPlane(AbsComplexPlane):
     """This Class creates a plane based on complex numbers.
 
        Attributes:
