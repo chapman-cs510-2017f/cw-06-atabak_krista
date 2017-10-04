@@ -1,6 +1,6 @@
 # CS510 CW 6
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Atabak & Kristalee**
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-06-atabak_krista.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-06-atabak_krista)
 
@@ -17,13 +17,12 @@
 1. After your notebooks are complete, spell-checked, and professionally formatted properly, add and commit them to GitHub. Note that managing conflicts with Jupyter notebooks can be a pain, so I recommend having only one person from your edit the notebooks at a time, being sure to pull all changes before you start editing yourself.
 
 
-## Assessment
-
-Numpy is very powerful in terms of being able to apply a function or command to an array. It is also very efficient because it does not implement for loops in the code. Pandas i'm sure are useful in coding, however for this implementation we didn't understand the usefulness for this implementation.
+## Assessment ##
 ------------------
 
+Numpy is very powerful in terms of being able to apply a function or command to an array. It is also very efficient because it does not implement for loops in the code. Pandas i'm sure are useful in coding, however for this implementation we didn't understand the usefulness for this implementation.
 
-**CHANGEME**
+------------------
 
 ## Honor Pledge
 

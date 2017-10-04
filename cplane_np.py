@@ -67,7 +67,7 @@ class ListComplexPlane(AbsComplexPlane):
 
     def apply(self, f):
         fv=np.vectorize(f)
-        fv(self.plane)
+        self.plane=fv(self.plane)
         self.fs.append(f)
 
     def zoom(self, xmin, xmax, xlen, ymin, ymax, ylen):
@@ -79,6 +79,6 @@ class ListComplexPlane(AbsComplexPlane):
         self.ylen = ylen
         self.plane = self.__create_plane(self.xmin, self.xmax, self.xlen,
                                          self.ymin, self.ymax, self.ylen)
-        apply_v=np.vectorize(apply)
-        apply_v(fs)
+        for f in self.fs:
+            self.apply(f)
 
