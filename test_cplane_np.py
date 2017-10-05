@@ -20,7 +20,7 @@ def test_plane():
     :rtype:
     """
     c_plane = cplane.ArrayComplexPlane(0, 3, 3, 0, 3, 3)
-    ans == pd.DataFrame([[0.0+0.j  , 1.5+ 0.j  , 3.0+0.j],
+    ans = pd.DataFrame([[0.0+0.j  , 1.5+ 0.j  , 3.0+0.j],
                          [0.0+1.5j , 1.5+1.5j , 3.0+1.5j],
                          [0.0+3.j  , 1.5+3.j ,  3.0+3.j ]])
     assert_frame_equal(c_Plane.plane, ans)
