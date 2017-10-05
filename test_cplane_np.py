@@ -11,7 +11,7 @@
 """
 import cplane_np as cplane
 import pandas as pd
-
+from pandas.util.testing import assert_frame_equal
 
 def test_plane():
     """
