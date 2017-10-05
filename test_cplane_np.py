@@ -20,5 +20,6 @@ def test_plane():
     :rtype:
     """
     c_plane = cplane.ListComplexPlane(0, 3, 3, 0, 3, 3)
-    assert c_plane.plane == pd.DataFrame([[0.0, 0j], [0.0, 1.5j], [0.0, 3j], [1.5, 0j],
-                             [1.5, 1.5j], [1.5, 3j], [3.0, 0j], [3.0, 1.5j], [3.0, 3j]])
+    assert c_plane.plane == pd.DataFrame([[0.0+0.j  , 1.5+ 0.j  , 3.0+0.j],
+                                          [0.0+1.5j , 1.5+1.5j , 3.0+1.5j],
+                                          [0.0+3.j  , 1.5+3.j ,  3.0+3.j ]])
